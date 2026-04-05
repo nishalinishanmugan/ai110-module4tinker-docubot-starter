@@ -80,3 +80,13 @@ You will primarily work in:
 - Python 3.9+
 - A Gemini API key for LLM features (only needed for modes 1 and 3)
 - No database, no server setup, no external services besides LLM calls
+
+## Reflect and Discuss
+The summary should be 5–7 sentences covering:
+
+- The core concept students needed to understand
+- Where students are most likely to struggle
+- Where AI was helpful vs misleading
+- One way they would guide a student without giving the answer
+
+The student get to understand the differences between the Native LLM, retrival only, and RAG and why it is important to provide the LLM with real evidence. The student will probably need to fix the docubot.py code several times to reach a point where the retrival only mode is more or less correct. The instructiosn mentions to run pip install -r requirement.txt, which is good because it never mentioned it in the instructions before only in the README. The AI is helpful is suggestion implementations for the functions in docubot.py, but it is easy for the AI to provide misleading code if it doesn't have the full context or if the student is vague in asking the AI. As a student, I would follow what the instructions mention where the student things about the code the AI is providing and as more questions or mention specific things that they want improved to get better results. If the student is specific and provide context to the AI, it should have better results. The student should think about the process of the system and ask specific questions instead of asking the AI to just give the answer. 
